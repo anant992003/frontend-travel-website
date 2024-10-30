@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Righteous&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Grand+Hotel&family=Righteous&family=Squada+One&display=swap');
+*{
+    box-sizing:border-box;
+
+}
+body{
+    margin:0;
+    background-image:linear-gradient(to right,rgb(100, 124, 139),rgb(13, 32, 44));
+}
+#intro{
+    height:300px;
+    width:100%;
+    text-align: left;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-image:linear-gradient(to right,rgb(100, 100, 87),rgb(98, 33, 33));
+}
+ 
+ 
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:2px;
+    width:300px;
+    /* grid-template-rows:100px 100px 100px; */
+    box-shadow:0px 0px 10px rgba(1,1,1,0.5);
+    transition: all ease-in-out 1s;   
+     
+}
+
+.photo-1{
+    border-radius:10px;
+    background-color: chartreuse;
+    height:100px;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:rgb(216, 227, 211);
+    font-family:Tahoma, sans-serif;
+    font-size:15px;
+     
+}
+.photo-11{
+background-image: url(https://th.bing.com/th/id/OIP.tBRzTC9t5AQs9LMmA3459gHaFj?w=272&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.photo-12{
+    background-image: url(https://th.bing.com/th/id/OIP.zYCoRXDzKfsP1_FNLHrXjwHaEO?w=337&h=180&c=7&r=0&o=5&pid=1.7); 
+}
+.photo-13{
+    background-image: url(https://th.bing.com/th/id/OIP.WVIxgWi8Llf6sWgWtw5QRAHaEK?w=309&h=180&c=7&r=0&o=5&pid=1.7); 
+}
+.photo-14{
+    background-image: url(https://th.bing.com/th/id/OIP.Umo7vtgtRCf_pYhwxJq1ggHaE7?rs=1&pid=ImgDetMain); 
+}
+.photo-15{
+    background-image: url(https://th.bing.com/th/id/OIP.1og1EQk-EHoW0-Lk3CvfWgHaD8?w=342&h=182&c=7&r=0&o=5&pid=1.7);  
+}
+.photo-16{
+    background-image: url(https://th.bing.com/th/id/OIP.SAeSc_miyyTE0q2G5NKJygHaE6?w=270&h=180&c=7&r=0&o=5&pid=1.7);  
+}
+.nav-bar{
+    width:100%;
+    display: flex;
+    justify-content:space-evenly;   
+    align-items:center;
+    background-color: rgb(39, 27, 51);
+    padding:15px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size:14px; 
+    position: sticky; 
+    margin:0 auto;
+    border-radius:1px;
+     
+    color:white;
+    
+}
+ 
+.nav-bar-content:hover{
+    color:yellow;
+    cursor:pointer;
+}
+#hidden-india{
+    font-family: "Archivo Black", sans-serif;
+    font-size:30px;
+    transition:all ease-in-out 1s;
+    padding:5px;
+    border-radius:10px;
+}
+#hidden-india:hover{
+    box-shadow:0px 1px 10px rgba(1,1,1,0.5);
+    cursor:pointer;
+     
+} 
+
+#heading-bar{
+    text-align:center;
+     
+    color:rgb(228, 226, 193);
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 40px;
+    font-style: normal;
+    transition:all ease-in-out 1s;
+    padding:10px;
+    
+
+}
+#heading-bar:hover{
+    box-shadow:0px 0px 10px rgba(1,1,1,0.5);
+    background-image:linear-gradient(to right,rgb(100, 124, 139),rgb(13, 32, 44));
+    cursor:pointer;
+    
+}
+.photo{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:10px;
+    text-decoration: none;
+    
+
+}
+.photo-box-2{
+     
+    height:250px;
+    background-size:cover;
+    background-position: bottom;
+    transition:ease-in-out 1s;
+    font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  box-shadow:10px 10px 10px rgba(1,1,1,0.5);
+  border-radius:10px;
+
+     
+}
+.photo-box-21{
+background-image:url(https://pyt-blogs.imgix.net/2020/08/7344206642_3a1369539c_b.jpg?auto=format&ixlib=php-3.3.0);
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-decoration: none;
+
+}
+.photo-box-21:hover{
+    background-position:top;
+    cursor:pointer;
+}
+
+.photo-box-22{
+    background-image:url(https://c0.wallpaperflare.com/preview/876/289/147/mt-kanchenjunga-view-from-lingthem-sikkim-himalaya.jpg);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+.photo-box-22:hover{
+    background-position:top;
+    cursor:pointer;
+}
+
+
+.photo-box-23{
+    background-image:url(https://assets.telegraphindia.com/telegraph/2022/Nov/1668510728_cms_11zon.jpg);
+    display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+ 
+}
+.photo-box-23:hover{
+    background-position:top;
+    cursor:pointer;
+}
+.photo-box-24{
+    background-image:url(https://img.freepik.com/premium-photo/fantastic-forest-through-which-mysterious-river-flows_1268-31732.jpg);
+    display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+
+}
+.photo-box-24:hover{
+    background-position:top;
+    cursor:pointer;
+}
+.photo-box-25{
+    background-image:url(https://wallpapercave.com/wp/KlWqhAH.jpg);
+    display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+
+}
+.photo-box-25:hover{
+    background-position:top;
+    cursor:pointer;
+}
+.photo-box-26{
+    background-image:url(https://c1.wallpaperflare.com/preview/961/654/547/great-rann-white-rann-desert-hot-kutch-kachchh.jpg);
+    display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+}
+.photo-box-26:hover{
+    background-position:top;
+    cursor:pointer;
+}
+.most-popular{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin:15px;
+    
+}
+.popular-image{
+    border-radius:20px;
+    height:250px;
+    width:400px;
+    background-image:url(https://2.bp.blogspot.com/-_vLJno0-9is/Wd8O3ppCCvI/AAAAAAAACnY/q5atv4PWpi4Jj87z2xzsIDBhRI5H63Z8QCLcBGAs/s1600/Darjeeling%2Btour%2B-.jpg);
+    background-size:cover;
+    transition:all ease-in-out 1s;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Archivo Black", sans-serif;
+    color:rgb(234, 255, 5);
+    font-size:30px;
+    
+    
+
+}
+.popular-image:hover{
+    background-position:right;
+    cursor:pointer;
+}
+.cover-around{
+    border:1px solid black;
+    margin:50px;
+    background-image:linear-gradient(to right,rgb(152, 152, 135),rgb(89, 58, 58));
+    border-radius:20px;
+    transition:all ease-in-out 1s;
+    
+}
+.cover-around:hover{
+    box-shadow:0px 10px 20px rgba(1,1,1,0.5);
+     
+}
+ 
+.popular-heading{
+    font-family: "Squada One", sans-serif;
+    font-weight:100;
+    font-style: normal;
+    font-size:18px;
+    color:rgb(77, 57, 28)
+}
+.button{
+    border:1px solid black;
+    height:30px;
+    width:100px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: black;
+    color:white;
+    font-weight:10px;
+    
+}
+.button:hover{
+    cursor:pointer;
+}
+#show-more{
+    color:white;
+    text-decoration: none;
+    transition: all ease-in-out 1s;
+}
+#show-more:hover{
+    box-shadow:0px 15px 20px rgba(1,1,1,0.5);
+}
+.footer{
+    width:100%;
+    height:200px;
+    margin-top:50px;
+}
+#follow-us{
+    text-align:center;
+    margin-bottom: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+}
+.social{
+    font-size: 30px;
+    margin:5px;
+    
+}
+.logo{
+    width:125px;
+    margin:0 auto;
+    color:white;
+    
+     
+}
+#copyright{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size:12px;
+}
+ 
+
+
+
